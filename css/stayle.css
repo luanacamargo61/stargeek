@@ -1,0 +1,116 @@
+body{
+    background-color: black;
+    background-image: url(/img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.entrar {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000000;
+    border: 3px solid #ffffff;
+    text-shadow: 2px 2px 3px black;
+    font-weight: 400;
+    margin-bottom: 10%;
+    margin-left: 60px;
+}
+.div {
+    padding: 5px 5px;
+    width: 400px;
+    height: 500px;
+    background-color: #ffffff55;
+    border: #ffffff;
+    border-radius: 15px;
+    margin-left: 500px;
+    margin-top: 100px;
+    box-shadow: 1px 1px 20px #ffffff;
+}
+.text {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: 5px;
+    border-radius: 10px;
+    font-size: 150%;
+    margin-bottom: 50px;
+}
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+    margin-top: 80px;
+    font-size: 60px;
+    border:9px 5px black;
+    background: -webkit-linear-gradient(#ffffff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+img {
+    margin-left: 120px;
+
+}
+.sair {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.entrarr {
+    padding: 10px 30px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff95;
+    border: 3px solid #ffffff;
+    text-shadow: 2px 2px 3px black;
+    font-weight: 500;
+    margin-left: 700px;
+    margin-top: 5px;
+    font-size: 25px;
+    box-shadow: 0px 10px 80px #ffffff;
+    margin-bottom: 500px;
+}
+.loginn {
+    margin-top: 500px;
+}
+.logo {
+    margin-left: 570px;
+    margin-top: 200px;
+}
+footer {
+    margin-top: 500px;
+    background-color: #000;
+}
+.baxo {
+    margin-top: 500px;
+    width: 200px;
+    height: 600px;
+    background-color: #000;
+    color: #ffffff;
+    display: flex ;
+    flex-direction: row;
+}
+.foot {
+    margin-left: 200px;
+    width: 400px;
+    margin-top: 100px;
+}
+.cadastro{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(252,3,108,1) 100%);
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.nobara {
+    height: 800px;
+    margin-left: 282px;
+}
+.preto {
+    opacity: 0.5;
+    height: 800px;
+}
+.h2{
+    margin-top: 1000px;
+}
