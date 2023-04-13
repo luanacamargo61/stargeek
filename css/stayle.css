@@ -1,31 +1,45 @@
-body{
+.index{
     background-color: black;
-    background-image: url(/img/fundo.png);
+    background-image: url(/img/disney2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+.Login{
+    background-color: rgb(0, 0, 0);
+    background-image: url(/img/disney2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .entrar {
     padding: 10px 20px;
-    background-color: #ffffff;
+    background-color: #6561611b;
     border-radius: 5px;
     text-decoration: none;
-    color: #000000;
-    border: 3px solid #ffffff;
-    text-shadow: 2px 2px 3px black;
+    color: #ffffff;
+    border: 3px solid #ffffffd1;
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);
     font-weight: 400;
     margin-bottom: 10%;
-    margin-left: 60px;
+    margin-right: 10px;
 }
 .div {
     padding: 5px 5px;
     width: 400px;
     height: 500px;
-    background-color: #ffffff55;
+    background-color: #33333355;
     border: #ffffff;
     border-radius: 15px;
     margin-left: 500px;
     margin-top: 100px;
     box-shadow: 1px 1px 20px #ffffff;
+    text-align: center;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .text {
     padding: 10px 20px;
@@ -36,19 +50,13 @@ body{
     margin-bottom: 50px;
 }
 h1 {
-    text-align: center;
     color: #ffffff;
     margin-bottom: 30px;
     margin-top: 80px;
-    font-size: 60px;
     border:9px 5px black;
     background: -webkit-linear-gradient(#ffffff, #ffffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-img {
-    margin-left: 120px;
-
 }
 .sair {
     color: #ffffff;
@@ -58,59 +66,101 @@ img {
     margin-left: 10px;
 }
 .entrarr {
-    padding: 10px 30px;
-    background-color: #ffffff;
+    padding: 3px 20px;
+    background-color: #7a7a7a4b;
     border-radius: 5px;
     text-decoration: none;
-    color: #ffffff95;
+    color: #ffffff2c;
     border: 3px solid #ffffff;
-    text-shadow: 2px 2px 3px black;
+    text-shadow: 2px 2px 0px rgb(255, 255, 255);
     font-weight: 500;
-    margin-left: 700px;
-    margin-top: 5px;
+    margin-top: 15px;
     font-size: 25px;
     box-shadow: 0px 10px 80px #ffffff;
-    margin-bottom: 500px;
 }
 .loginn {
-    margin-top: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 400px;
+    height: 300px;
 }
-.logo {
-    margin-left: 570px;
-    margin-top: 200px;
-}
-footer {
-    margin-top: 500px;
-    background-color: #000;
-}
+
 .baxo {
-    margin-top: 500px;
-    width: 200px;
-    height: 600px;
+    margin-top: 400px;
+    width: 100%;
     background-color: #000;
     color: #ffffff;
     display: flex ;
     flex-direction: row;
+    justify-content: center;
+}
+.baxo > div{
+width: 30%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 .foot {
-    margin-left: 200px;
-    width: 400px;
-    margin-top: 100px;
+    width: 30%;
 }
-.cadastro{
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(252,3,108,1) 100%);
-    background-repeat: no-repeat;
-    height: 800px;
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
-.nobara {
-    height: 800px;
-    margin-left: 282px;
+.cabecalho {
+    background-color: rgb(41, 152, 156);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-.preto {
-    opacity: 0.5;
-    height: 800px;
+
+.cabecalho>img {
+    height: 60px;
 }
-.h2{
-    margin-top: 1000px;
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu>li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.menu>li>a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.menu>li:hover {
+    background-color: rgba(255, 255, 255, 0.341);
+}
+.icone{
+    margin-top: 5px;
+}
+.dois {
+    background-color:black;
+}
+.promocoes{
+    display:flex;
+    margin-right: 20px; 
+    
+} 
+.sabor > img{
+    margin-right: 20px;
+}
+.ble > h1{
+    text-align: left;
+    font-size: 5px;
 }
