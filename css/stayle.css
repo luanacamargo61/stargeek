@@ -27,7 +27,7 @@
     padding: 5px 5px;
     width: 400px;
     height: 500px;
-    background-color: #33333355;
+    background-color: #3333337e;
     border: #ffffff;
     border-radius: 15px;
     margin-left: 500px;
@@ -148,6 +148,7 @@ justify-content: center;
 }
 .icone{
     margin-top: 5px;
+    margin-left: 20px;
 }
 .dois {
     background-color:black;
@@ -155,12 +156,114 @@ justify-content: center;
 .promocoes{
     display:flex;
     margin-right: 20px; 
+    overflow: scroll;
+    gap: 20px;
+    padding: 10px;
     
 } 
 .sabor > img{
-    margin-right: 20px;
+    max-height: 250px;
 }
 .ble > h1{
     text-align: left;
     font-size: 5px;
+}
+.bia {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+.bia > img {
+    
+    height: 100%;
+}
+.promocoes::-webkit-scrollbar {
+    display: none;
+}
+.ok > p{
+    margin-top: 23px;
+    margin-left: 15px;
+    color: #ffffff;
+}
+.ok{
+    display: flex;
+}
+.h1{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.h1 > svg{
+    color: white;
+}
+.h1 > h2 {
+    color: white;
+    font-size: 30px;
+}
+.div2 {
+    padding: 5px 5px;
+    width: 400px;
+    height: 800px;
+    background-color: #33333381;
+    border: #ffffff;
+    border-radius: 15px;
+    margin-left: 500px;
+    margin-top: 0px;
+    box-shadow: 1px 1px 20px #ffffff;
+    text-align: center;
+}
+.sabor > img:hover{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+.botao2{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: aqua;
+    display: block;
+    flex-direction: column;
+    margin: 30px 50px auto;
+    padding: 16px;
+    border: 2px solid;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.linha1{
+    border: none;
+    height: 3px;
+    background: blue;
+    background: linear-gradient(blue);
+}
+.login{
+    padding: 30px;
+    text-align: center;
+    color: #000;
+    width: 546px;
+    height: 540px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: blueviolet;
+    border: 5px burlywood;
+}
+input{
+    font-size: 20px;
+    width: 347px;
+    height: 55px;
+    border-radius: 5px;
+    border: 2px solid;
+    margin: 20px 5px;
+    padding-left: 10px;
+    display: block;
+    flex-direction: column;
+}
+h2{
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 2px blueviolet;
+}
+
+.fundo-login {
+    background-image: url(/img/disney2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
