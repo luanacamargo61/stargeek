@@ -1,13 +1,13 @@
 .index{
     background-color: black;
-    background-image: url(/img/disney2.jpg);
+    background-image: url(./img/disney2.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     text-align: center;
 }
 .Login{
     background-color: rgb(0, 0, 0);
-    background-image: url(/img/disney2.jpg);
+    background-image: url(./img/disney2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -263,7 +263,7 @@ h2{
 }
 
 .fundo-login {
-    background-image: url(/img/disney2.jpg);
+    background-image: url(./img/disney2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
